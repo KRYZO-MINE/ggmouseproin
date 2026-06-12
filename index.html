@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG Mouse Pro - Advanced Gaming Mouse Software | ggmousepro.in</title>
+    <meta name="description" content="GG Mouse Pro - Professional gaming mouse software with wireless activation, macro support, recoil control, and keymap editor. No root required.">
+    <meta name="keywords" content="GG Mouse Pro, gaming mouse, macro support, recoil control, wireless activation, keymap editor">
+    <link rel="canonical" href="https://www.ggmousepro.in">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ggmousepro.in">
+    <meta property="og:title" content="GG Mouse Pro - Advanced Gaming Mouse Software">
+    <meta property="og:description" content="Professional gaming mouse software with wireless activation, macro support, and recoil control.">
+    <meta property="og:image" content="https://www.ggmousepro.in/og-image.jpg">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.ggmousepro.in">
+    <meta name="twitter:title" content="GG Mouse Pro - Advanced Gaming Mouse Software">
+    <meta name="twitter:description" content="Professional gaming mouse software with wireless activation, macro support, and recoil control.">
+    <meta name="twitter:image" content="https://www.ggmousepro.in/twitter-image.jpg">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563EB',
+                        cyan: '#06B6D4',
+                        slate: {
+                            900: '#0F172A',
+                            500: '#64748B',
+                            100: '#F8FAFC',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "GG Mouse Pro",
+        "url": "https://www.ggmousepro.in",
+        "logo": "https://www.ggmousepro.in/logo.png",
+        "sameAs": [
+            "https://t.me/@getyourcodes",
+            "https://discord.gg/nmSEC42psM"
+        ]
+    }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #F8FAFC 0%, #FFFFFF 100%);
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #2563EB 0%, #06B6D4 100%);
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(37, 99, 235, 0.15);
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #2563EB, #06B6D4);
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        .accordion-content.active {
+            max-height: 500px;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #2563EB 0%, #06B6D4 100%);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+        }
+        .btn-secondary {
+            border: 2px solid #2563EB;
+            transition: all 0.3s ease;
+        }
+        .btn-secondary:hover {
+            background: #2563EB;
+            color: white;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fadeInUp {
+            animation: fadeInUp 0.6s ease forwards;
+        }
+        .scroll-animate {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+        .scroll-animate.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        #backToTop {
+            transition: all 0.3s ease;
+        }
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+        }
+        .mobile-menu.active {
+            transform: translateX(0);
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+    
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="#home" class="text-2xl font-bold bg-gradient-to-r from-primary to-cyan bg-clip-text text-transparent">
+                        GG Mouse Pro
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="nav-link text-slate-500 font-medium">About</a>
+                    <a href="#features" class="nav-link text-slate-500 font-medium">Features</a>
+                    <a href="#tutorials" class="nav-link text-slate-500 font-medium">Tutorials</a>
+                    <a href="#activation" class="nav-link text-slate-500 font-medium">Activation</a>
+                    <a href="#faq" class="nav-link text-slate-500 font-medium">FAQ</a>
+                    <a href="#support" class="nav-link text-slate-500 font-medium">Support</a>
+                    <a href="#contact" class="nav-link text-slate-500 font-medium">Contact</a>
+                </div>
+                
+                <button id="menuBtn" class="md:hidden p-2 rounded-lg hover:bg-slate-100">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="mobileMenu" class="mobile-menu fixed top-0 right-0 w-72 h-full bg-white shadow-2xl z-50 p-6">
+        <div class="flex justify-between items-center mb-8">
+            <a href="#home" class="text-xl font-bold bg-gradient-to-r from-primary to-cyan bg-clip-text text-transparent" onclick="closeMenu()">GG Mouse Pro</a>
+            <button id="closeMenuBtn" class="p-2 rounded-lg hover:bg-slate-100">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+        </div>
+        <div class="flex flex-col space-y-4">
+            <a href="#about" class="mobile-link text-lg font-medium text-slate-500 py-2">About</a>
+            <a href="#features" class="mobile-link text-lg font-medium text-slate-500 py-2">Features</a>
+            <a href="#tutorials" class="mobile-link text-lg font-medium text-slate-500 py-2">Tutorials</a>
+            <a href="#activation" class="mobile-link text-lg font-medium text-slate-500 py-2">Activation</a>
+            <a href="#faq" class="mobile-link text-lg font-medium text-slate-500 py-2">FAQ</a>
+            <a href="#support" class="mobile-link text-lg font-medium text-slate-500 py-2">Support</a>
+            <a href="#contact" class="mobile-link text-lg font-medium text-slate-500 py-2">Contact</a>
+        </div>
+    </div>
+    
+    <div id="menuOverlay" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
+
+    <section id="home" class="pt-32 pb-20 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="animate-fadeInUp">
+                    <h1 class="text-5xl lg:text-6xl font-bold mb-4">
+                        <span class="bg-gradient-to-r from-primary to-cyan bg-clip-text text-transparent">GG Mouse Pro</span>
+                    </h1>
+                    <p class="text-xl text-slate-500 mb-8">
+                        Professional gaming mouse software with wireless activation, macro support, recoil control, and keymap editor. No root required.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#tutorials" class="btn-primary px-8 py-3 rounded-xl text-white font-semibold inline-flex items-center">
+                            <span>View Tutorials</span>
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                            </svg>
+                        </a>
+                        <a href="#support" class="btn-secondary px-8 py-3 rounded-xl text-primary font-semibold">
+                            Get Support
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="hero-gradient rounded-3xl p-12 shadow-2xl">
+                        <div class="bg-white rounded-2xl p-8 text-center">
+                            <svg class="w-32 h-32 mx-auto mb-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <h3 class="text-2xl font-bold mb-2">Ready to Play</h3>
+                            <p class="text-slate-500">Advanced gaming features at your fingertips</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="scroll-animate text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">About GG Mouse Pro</h2>
+                <p class="text-xl text-slate-500">Professional gaming mouse software for everyone</p>
+            </div>
+            <div class="scroll-animate max-w-3xl mx-auto bg-slate-100 rounded-2xl p-8">
+                <h3 class="text-2xl font-bold mb-4">What is GG Mouse Pro?</h3>
+                <p class="text-slate-500 mb-6">
+                    GG Mouse Pro is a professional gaming mouse software that provides advanced features including wireless activation, wired activation, device-to-device activation, keymap editor, macro support, and recoil control. Best of all, it doesn't require root access.
+                </p>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white rounded-xl p-6 card-hover">
+                        <svg class="w-12 h-12 text-primary mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                        <h4 class="text-lg font-semibold mb-2">Fast Performance</h4>
+                        <p class="text-slate-500">Optimized for maximum gaming performance</p>
+                    </div>
+                    <div class="bg-white rounded-xl p-6 card-hover">
+                        <svg class="w-12 h-12 text-cyan mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                        <h4 class="text-lg font-semibold mb-2">Secure & Safe</h4>
+                        <p class="text-slate-500">No root required, 100% safe to use</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="scroll-animate text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Features</h2>
+                <p class="text-xl text-slate-500">Everything you need for professional gaming</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="scroll-animate bg-white rounded-2xl p-6 card-hover">
+                    <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Wireless Activation</h3>
+                    <p class="text-slate-500 text-sm">Activate wirelessly from anywhere</p>
+                </div>
+                <div class="scroll-animate bg-white rounded-2xl p-6 card-hover">
+                    <div class="w-12 h-12 bg-cyan/10 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Wired Activation</h3>
+                    <p class="text-slate-500 text-sm">Direct connection for maximum reliability</p>
+                </div>
+                <div class="scroll-animate bg-white rounded-2xl p-6 card-hover">
+                    <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Device-to-Device</h3>
+                    <p class="text-slate-500 text-sm">Transfer settings between devices</p>
+                </div>
+                <div class="scroll-animate bg-white rounded-2xl p-6 card-hover">
+                    <div class="w-12 h-12 bg-cyan/10 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Keymap Editor</h3>
+                    <p class="text-slate-500 text-sm">Customize all your key bindings</p>
+                </div>
+                <div class="scroll-animate bg-white rounded-2xl p-6 card-hover">
+                    <div class="w-12 h-12 bg-cyan/10 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Macro Support</h3>
+                    <p class="text-slate-500 text-sm">Record and automate complex actions</p>
+                </div>
+                <div class="scroll-animate bg-white rounded-2xl p-6 card-hover">
+                    <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Recoil Control</h3>
+                    <p class="text-slate-500 text-sm">Perfect recoil compensation system</p>
+                </div>
+                <div class="scroll-animate bg-white rounded-2xl p-6 card-hover">
+                    <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">No Root Required</h3>
+                    <p class="text-slate-500 text-sm">Safe and easy to use for everyone</p>
+                </div>
+                <div class="scroll-animate bg-white rounded-2xl p-6 card-hover">
+                    <div class="w-12 h-12 bg-cyan/10 rounded-xl flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Regular Updates</h3>
+                    <p class="text-slate-500 text-sm">Always improving and updating</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tutorials" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="scroll-animate text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Tutorials</h2>
+                <p class="text-xl text-slate-500">Step-by-step guides for every feature</p>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-8 mb-12">
+                <div class="scroll-animate bg-white border border-slate-100 rounded-2xl p-8 card-hover">
+                    <h3 class="text-2xl font-bold mb-4">Basic Tutorial</h3>
+                    <a href="https://www.youtube.com/watch?v=0tX1r2dpvxk" class="text-primary font-semibold inline-flex items-center mb-4" target="_blank">
+                            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
+                            </svg>
+                            Watch Basic Tutorial
+                        </a>
+                </div>
+                <div class="scroll-animate bg-white border border-slate-100 rounded-2xl p-8 card-hover">
+                    <h3 class="text-2xl font-bold mb-4">Keymap Editor</h3>
+                    <a href="https://www.youtube.com/watch?v=_n8HxNlTbbc" class="text-primary font-semibold inline-flex items-center mb-4" target="_blank">
+                            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
+                            </svg>
+                            Watch Keymap Editor Tutorial
+                        </a>
+                </div>
+            </div>
+            <div class="scroll-animate bg-white border border-slate-100 rounded-2xl p-8 mb-8">
+                <h3 class="text-2xl font-bold mb-6">Macro Tutorial</h3>
+                <a href="https://www.youtube.com/watch?v=Lg9qFe_a3HM" class="text-primary font-semibold inline-flex items-center mb-6" target="_blank">
+                            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
+                            </svg>
+                            Watch Macro Tutorial
+                        </a>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-semibold mb-3 text-slate-800">Supported Macro Trigger Types</h4>
+                        <ul class="space-y-2 text-slate-600">
+                            <li>• Key Down: macro triggers when pressing the keyboard button</li>
+                            <li>• Key Up: macro triggers when releasing the keyboard button</li>
+                            <li>• Loop: macro will trigger many times after you press the keyboard button and stop after you release the keyboard button</li>
+                            <li>• Down/Up: macro will trigger once when you press the keyboard and once when you release the keyboard button</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-3 text-slate-800">Operations Explained</h4>
+                        <ul class="space-y-2 text-slate-600">
+                            <li>• Tap: perform a tap on the screen. The duration of the tap can be adjusted</li>
+                            <li>• Press+Release: this option splits a tap operation into two operations. This is rarely used</li>
+                            <li>• Swipe: perform a swipe on the screen</li>
+                            <li>• Sleep: gives a latency between two operations</li>
+                        </ul>
+                        <h4 class="font-semibold mb-3 mt-6 text-slate-800">Terminate Hotkey</h4>
+                        <p class="text-slate-600">When the terminate hotkey is set, you can press the terminate hotkey to force stop a running macro. For example, if your macro has 5 operations and you press the terminate hotkey after two operations are done, then the remaining three operations will not be triggered</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="scroll-animate bg-white border border-slate-100 rounded-2xl p-8 card-hover">
+                    <h3 class="text-xl font-bold mb-4">Wireless Activation</h3>
+                    <a href="https://youtu.be/ugH8W9LJJNc?si=hka3G_xW0Wm4sU_w" class="text-primary font-semibold inline-flex items-center mb-4" target="_blank">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
+                            </svg>
+                            Watch Tutorial
+                        </a>
+                </div>
+                <div class="scroll-animate bg-white border border-slate-100 rounded-2xl p-8 card-hover">
+                    <h3 class="text-xl font-bold mb-4">Device-by-Device</h3>
+                    <a href="https://youtube.com/shorts/XSQAD-q38qs?si=B7wgqI2MyIqh_VAP" class="text-primary font-semibold inline-flex items-center mb-4" target="_blank">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
+                            </svg>
+                            Watch Tutorial
+                        </a>
+                </div>
+                <div class="scroll-animate bg-white border border-slate-100 rounded-2xl p-8 card-hover">
+                    <h3 class="text-xl font-bold mb-4">Root Activation</h3>
+                    <a href="https://youtube.com/shorts/ZvViIo46X_E" class="text-primary font-semibold inline-flex items-center mb-4" target="_blank">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
+                            </svg>
+                            Watch Tutorial
+                        </a>
+                </div>
+                <div class="scroll-animate bg-white border border-slate-100 rounded-2xl p-8 card-hover">
+                    <h3 class="text-xl font-bold mb-4">Customize Mouse Pointer</h3>
+                    <a href="https://www.youtube.com/shorts/FabyYBNKkEU" class="text-primary font-semibold inline-flex items-center mb-4" target="_blank">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
+                            </svg>
+                            Watch Tutorial
+                        </a>
+                </div>
+                <div class="scroll-animate bg-white border border-slate-100 rounded-2xl p-8 card-hover">
+                    <h3 class="text-xl font-bold mb-4">Long Press Trigger Group</h3>
+                    <a href="https://www.youtube.com/watch?v=mXTJu7LWX-g" class="text-primary font-semibold inline-flex items-center mb-4" target="_blank">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
+                            </svg>
+                            Watch Tutorial
+                        </a>
+                </div>
+                <div class="scroll-animate bg-white border border-slate-100 rounded-2xl p-8 card-hover">
+                    <h3 class="text-xl font-bold mb-4">Recoil Control</h3>
+                    <a href="https://www.youtube.com/watch?v=v2UcXBhl_zI" class="text-primary font-semibold inline-flex items-center mb-4" target="_blank">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
+                            </svg>
+                            Watch Tutorial
+                        </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="activation" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="scroll-animate text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Activation Methods</h2>
+                <p class="text-xl text-slate-500">Choose the best method for you</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                <div class="scroll-animate bg-white rounded-2xl p-8 card-hover border-t-4 border-t-cyan">
+                    <h3 class="text-2xl font-bold mb-4">Wired</h3>
+                    <p class="text-slate-500 mb-6">Most reliable method. Direct USB connection for maximum performance.</p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Maximum reliability</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Low latency</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>No lag issues</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scroll-animate bg-white rounded-2xl p-8 card-hover border-t-4 border-t-primary">
+                    <h3 class="text-2xl font-bold mb-4">Wireless</h3>
+                    <p class="text-slate-500 mb-6">Most convenient method. Works from anywhere with a connection.</p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Easy to use</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>No cables needed</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Fast setup</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scroll-animate bg-white rounded-2xl p-8 card-hover border-t-4 border-t-yellow-500">
+                    <h3 class="text-2xl font-bold mb-4">Device-by-Device</h3>
+                    <p class="text-slate-500 mb-6">Activate directly from another device without computer.</p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>No computer needed</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Quick and easy</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scroll-animate bg-white rounded-2xl p-8 card-hover border-t-4 border-t-slate-900">
+                    <h3 class="text-2xl font-bold mb-4">Root</h3>
+                    <p class="text-slate-500 mb-6">Advanced method. Requires root access but offers full control.</p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Full control</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                            </svg>
+                            <span>Advanced features</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                            </svg>
+                            <span>Requires root</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="scroll-animate bg-white rounded-2xl p-8">
+                <h3 class="text-2xl font-bold mb-6">Wired Activation - Step-by-Step</h3>
+                <div class="mb-6">
+                    <h4 class="font-semibold mb-4">Download Activation Tool</h4>
+                    <div class="grid md:grid-cols-2 gap-4 mb-6">
+                        <a href="https://842271520-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FMLrIUhDIPDA6puFgEi0Q%2Fuploads%2FBZrsb4YXjrYfz7Syy9rp%2FGG%20Mouse%20Pro%20Activation%20Tool%20Windows.zip?alt=media&token=aac818bd-9ce9-4030-9e63-5ab514d1df61" class="block p-6 border-2 border-primary rounded-xl text-center hover:bg-primary/10 transition">
+                            <div class="text-3xl mb-2">🪟</div>
+                            <div class="font-bold">Windows</div>
+                            <div class="text-slate-500 text-sm">86 MB</div>
+                        </a>
+                        <a href="https://842271520-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FMLrIUhDIPDA6puFgEi0Q%2Fuploads%2FWlizVYNSlFIldHitIRBa%2FGG%20Mouse%20Pro%20Activation%20Tool%20MacOS.zip?alt=media&token=8455cac0-e93c-49da-b6c6-d880b7fb01f9" class="block p-6 border-2 border-cyan rounded-xl text-center hover:bg-cyan/10 transition">
+                            <div class="text-3xl mb-2">🍎</div>
+                            <div class="font-bold">MacOS</div>
+                            <div class="text-slate-500 text-sm">91 MB</div>
+                        </a>
+                    </div>
+                    <a href="https://www.youtube.com/watch?v=7pW5u7mvf60" class="text-primary font-semibold inline-flex items-center mb-6" target="_blank">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
+                            </svg>
+                            Watch Video Tutorial
+                        </a>
+                </div>
+                <h4 class="font-semibold mb-3">Text Tutorial</h4>
+                <ol class="list-decimal pl-6 space-y-3 text-slate-600">
+                    <li>Open the "Activation Tool" on your computer (Windows or MacOS</li>
+                    <li>Make sure "Developer Options" on your phone is on</li>
+                    <li>If USB Debugging is off: click the red "Open" button to navigate to Developer Options and turn on USB Debugging (for Xiaomi: also turn on USB Debugging (Security settings))</li>
+                    <li>Go back to GG Mouse Pro app</li>
+                    <li>Connect your phone with your computer</li>
+                    <li>When successfully connected and activated, the third row of GG Mouse Pro App activation page becomes green automatically</li>
+                </ol>
+                <div class="mt-6 bg-yellow-50 border border-yellow-200 rounded-xl p-4">
+                    <h5 class="font-semibold text-yellow-800 mb-2">Things to Notice</h5>
+                    <ul class="text-yellow-700 space-y-1 text-sm">
+                        <li>• Ensure Developer Options must be turned on</li>
+                        <li>• Check that your computer recognizes your phone correctly</li>
+                        <li>• Use a working USB cable</li>
+                        <li>• Try re-opening the activator app and reconnecting if issues occur</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="scroll-animate bg-white rounded-2xl p-8 mt-6">
+                <h3 class="text-2xl font-bold mb-4">Quick Setup Requirements</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-semibold mb-3">Minimum Requirements</h4>
+                        <ul class="space-y-2 text-slate-500">
+                            <li>• Android 7.0 or higher</li>
+                            <li>• 1GB RAM minimum</li>
+                            <li>• Stable internet connection</li>
+                            <li>• Compatible mouse</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-3">Recommended</h4>
+                        <ul class="space-y-2 text-slate-500">
+                            <li>• Android 10.0 or higher</li>
+                            <li>• 4GB RAM or more</li>
+                            <li>• Wi-Fi or 4G connection</li>
+                            <li>• Gaming mouse</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="scroll-animate text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-slate-500">Find answers to common questions</p>
+            </div>
+            <div class="scroll-animate mb-8">
+                <input type="text" id="faqSearch" placeholder="Search FAQ..." class="w-full px-6 py-4 rounded-xl border border-slate-100 focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary">
+            </div>
+            <div id="faqList" class="space-y-4">
+                <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                        <span class="font-semibold text-lg">What is GG Mouse Pro?</span>
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-5 text-slate-500">
+                        GG Mouse Pro is a professional gaming mouse software that provides advanced features including wireless activation, macro support, recoil control, and keymap editor with no root required.
+                    </div>
+                </div>
+                <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                        <span class="font-semibold text-lg">Is root required?</span>
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-5 text-slate-500">
+                        No! GG Mouse Pro does not require root access. You can use all features without rooting your device.
+                    </div>
+                </div>
+                <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                        <span class="font-semibold text-lg">What devices are supported?</span>
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-5 text-slate-500">
+                        GG Mouse Pro supports Android 7.0 and higher. Works with most Android devices and compatible mice.
+                    </div>
+                </div>
+                <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                        <span class="font-semibold text-lg">How do I get support?</span>
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-5 text-slate-500">
+                        You can reach our support team via the Support section, Telegram, Discord, or email. We're here to help!
+                    </div>
+                </div>
+                <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                        <span class="font-semibold text-lg">Can I use multiple activation methods?</span>
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-5 text-slate-500">
+                        Yes! You can choose from wireless, wired, or device-to-device activation depending on your needs.
+                    </div>
+                </div>
+                <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                        <span class="font-semibold text-lg">Is there a free trial?</span>
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="accordion-content px-6 pb-5 text-slate-500">
+                        Yes, GG Mouse Pro offers a free trial so you can test all features before committing.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="support" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="scroll-animate text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Support</h2>
+                <p class="text-xl text-slate-500">Get help with any issues</p>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold">Common Problems</h3>
+                    <div class="grid gap-4">
+                        <div class="scroll-animate bg-white rounded-xl p-6 card-hover">
+                            <h4 class="font-semibold mb-2">Connection Issues</h4>
+                            <p class="text-slate-500 text-sm mb-3">Having trouble connecting your mouse?</p>
+                            <a href="#" class="text-primary text-sm font-semibold">Troubleshoot →</a>
+                        </div>
+                        <div class="scroll-animate bg-white rounded-xl p-6 card-hover">
+                            <h4 class="font-semibold mb-2">Activation Problems</h4>
+                            <p class="text-slate-500 text-sm mb-3">Issues with activation methods?</p>
+                            <a href="#" class="text-primary text-sm font-semibold">Troubleshoot →</a>
+                        </div>
+                        <div class="scroll-animate bg-white rounded-xl p-6 card-hover">
+                            <h4 class="font-semibold mb-2">Macro Not Working</h4>
+                            <p class="text-slate-500 text-sm mb-3">Macros not recording or playing?</p>
+                            <a href="#" class="text-primary text-sm font-semibold">Troubleshoot →</a>
+                        </div>
+                        <div class="scroll-animate bg-white rounded-xl p-6 card-hover">
+                            <h4 class="font-semibold mb-2">Recoil Control</h4>
+                            <p class="text-slate-500 text-sm mb-3">Need help with recoil settings?</p>
+                            <a href="#" class="text-primary text-sm font-semibold">Troubleshoot →</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-6">Contact Support</h3>
+                    <form id="supportForm" class="scroll-animate bg-white rounded-2xl p-6 space-y-8">
+                        <div class="relative">
+                            <input
+                                id="support-name"
+                                name="support-name"
+                                type="text"
+                                class="w-full border-b border-gray-300 py-1 focus:border-b-2 focus:border-blue-700 transition-colors focus:outline-none peer bg-inherit"
+                                required
+                            />
+                            <label
+                                for="support-name"
+                                class="absolute left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-blue-700"
+                            >Name</label>
+                        </div>
+                        <div class="relative">
+                            <input
+                                id="support-email"
+                                name="support-email"
+                                type="email"
+                                class="w-full border-b border-gray-300 py-1 focus:border-b-2 focus:border-blue-700 transition-colors focus:outline-none peer bg-inherit"
+                                required
+                            />
+                            <label
+                                for="support-email"
+                                class="absolute left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-blue-700"
+                            >Email</label>
+                        </div>
+                        <div class="relative">
+                            <select
+                                id="support-subject"
+                                name="support-subject"
+                                class="w-full border-b border-gray-300 py-1 focus:border-b-2 focus:border-blue-700 transition-colors focus:outline-none peer bg-inherit"
+                            >
+                                <option value="" disabled selected></option>
+                                <option>Technical Issue</option>
+                                <option>Activation Help</option>
+                                <option>General Question</option>
+                                <option>Feature Request</option>
+                                <option>Other</option>
+                            </select>
+                            <label
+                                for="support-subject"
+                                class="absolute left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-blue-700"
+                            >Subject</label>
+                        </div>
+                        <div class="relative">
+                            <textarea
+                                id="support-message"
+                                name="support-message"
+                                rows="4"
+                                class="w-full border-b border-gray-300 py-1 focus:border-b-2 focus:border-blue-700 transition-colors focus:outline-none peer bg-inherit"
+                                required
+                            ></textarea>
+                            <label
+                                for="support-message"
+                                class="absolute left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-blue-700"
+                            >Message</label>
+                        </div>
+                        <button type="submit" class="w-full btn-primary py-3 rounded-xl text-white font-semibold">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="scroll-animate text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Contact Us</h2>
+                <p class="text-xl text-slate-500">Get in touch with our team</p>
+            </div>
+            <div class="scroll-animate grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                <a href="https://chat.whatsapp.com/F58Pa9J7zvk4swQgJOlMnC" target="_blank" class="bg-white border border-slate-100 rounded-2xl p-8 text-center card-hover">
+                    <div class="w-16 h-16 bg-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">WhatsApp</h3>
+                    <p class="text-slate-500">Chat with us on WhatsApp</p>
+                </a>
+                <a href="https://discord.gg/nmSEC42psM" target="_blank" class="bg-white border border-slate-100 rounded-2xl p-8 text-center card-hover">
+                    <div class="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Discord</h3>
+                    <p class="text-slate-500">Join our Discord server</p>
+                </a>
+                <a href="https://www.instagram.com/gg_gaming_apps2/" target="_blank" class="bg-white border border-slate-100 rounded-2xl p-8 text-center card-hover">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Instagram</h3>
+                    <p class="text-slate-500">Follow us on Instagram</p>
+                </a>
+                <a href="mailto:support@ggmousepro.in" class="bg-white border border-slate-100 rounded-2xl p-8 text-center card-hover">
+                    <div class="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Email</h3>
+                    <p class="text-slate-500">support@ggmousepro.in</p>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <h3 class="text-2xl font-bold bg-gradient-to-r from-primary to-cyan bg-clip-text text-transparent mb-4">GG Mouse Pro</h3>
+                    <p class="text-slate-400">Professional gaming mouse software for everyone.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-slate-400">
+                        <li><a href="#home" class="hover:text-white transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-white transition">About</a></li>
+                        <li><a href="#features" class="hover:text-white transition">Features</a></li>
+                        <li><a href="#tutorials" class="hover:text-white transition">Tutorials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">More</h4>
+                    <ul class="space-y-2 text-slate-400">
+                        <li><a href="#activation" class="hover:text-white transition">Activation</a></li>
+                        <li><a href="#faq" class="hover:text-white transition">FAQ</a></li>
+                        <li><a href="#support" class="hover:text-white transition">Support</a></li>
+                        <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Social</h4>
+                    <ul class="space-y-2 text-slate-400">
+                        <li><a href="https://chat.whatsapp.com/F58Pa9J7zvk4swQgJOlMnC" target="_blank" class="hover:text-white transition">WhatsApp</a></li>
+                        <li><a href="https://discord.gg/nmSEC42psM" target="_blank" class="hover:text-white transition">Discord</a></li>
+                        <li><a href="https://www.instagram.com/gg_gaming_apps2/" target="_blank" class="hover:text-white transition">Instagram</a></li>
+                        <li><a href="mailto:support@ggmousepro.com" class="hover:text-white transition">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 pt-8 text-center text-slate-500">
+                <p>&copy; 2024 GG Mouse Pro. All rights reserved. | ggmousepro.in</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="fixed bottom-8 right-8 w-12 h-12 hero-gradient rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300 hover:scale-110">
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
+        </svg>
+    </button>
+
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const closeMenuBtn = document.getElementById('closeMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        function openMenu() {
+            mobileMenu.classList.add('active');
+            menuOverlay.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+            mobileMenu.classList.remove('active');
+            menuOverlay.classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+
+        menuBtn.addEventListener('click', openMenu);
+        closeMenuBtn.addEventListener('click', closeMenu);
+        menuOverlay.addEventListener('click', closeMenu);
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', closeMenu);
+        });
+
+        const navbar = document.getElementById('navbar');
+        let lastScroll = 0;
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > 100) {
+                navbar.classList.add('shadow-md');
+            } else {
+                navbar.classList.remove('shadow-md');
+            }
+            lastScroll = currentScroll;
+        });
+
+        const backToTop = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.remove('opacity-0', 'invisible');
+                backToTop.classList.add('opacity-100', 'visible');
+            } else {
+                backToTop.classList.add('opacity-0', 'invisible');
+                backToTop.classList.remove('opacity-100', 'visible');
+            }
+        });
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        const accordionBtns = document.querySelectorAll('.accordion-btn');
+        accordionBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const content = btn.nextElementSibling;
+                const icon = btn.querySelector('.accordion-icon');
+                
+                content.classList.toggle('active');
+                icon.classList.toggle('rotate-180');
+                
+                accordionBtns.forEach(otherBtn => {
+                    if (otherBtn !== btn) {
+                        otherBtn.nextElementSibling.classList.remove('active');
+                        otherBtn.querySelector('.accordion-icon').classList.remove('rotate-180');
+                    }
+                });
+            });
+        });
+
+        const faqSearch = document.getElementById('faqSearch');
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqSearch.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            faqItems.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                if (text.includes(searchTerm)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+
+        const scrollElements = document.querySelectorAll('.scroll-animate');
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+        scrollElements.forEach(el => observer.observe(el));
+
+        document.getElementById('supportForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+        });
+    </script>
+</body>
+</html>

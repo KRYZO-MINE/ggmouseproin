@@ -1,0 +1,12 @@
+{
+  "name": "gg-mouse-pro-website",
+  "version": "1.0.0",
+  "description": "GG Mouse Pro Official Website",
+  "scripts": {
+    "dev": "python -m http.server 8080",
+    "build": "echo 'Static site - no build step required'"
+  },
+  "keywords": ["gg-mouse-pro", "gaming"],
+  "author": "GG Mouse Pro Team",
+  "license": "MIT"
+}

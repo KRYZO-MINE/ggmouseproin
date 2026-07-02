@@ -88,6 +88,62 @@
         }
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is GG Mouse Pro 3?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GG Mouse Pro 3 is a professional gaming mouse software that provides advanced features including wireless activation, macro support, recoil control, and keymap editor with no root required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is root required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No! GG Mouse Pro 3 does not require root access. You can use all features without rooting your device."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What devices are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GG Mouse Pro 3 supports Android 7.0 and higher. Works with most Android devices and compatible mice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can reach our support team via the Support section, Telegram, Discord, or email. We're here to help!"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use multiple activation methods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! You can choose from wireless, wired, or device-to-device activation depending on your needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a free trial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, GG Mouse Pro 3 offers a free trial so you can test all features before committing."
+          }
+        }
+      ]
+    }
+    </script>
     <style>
         html {
             scroll-behavior: smooth;
@@ -248,8 +304,8 @@
                     <a href="#contact" class="nav-link text-slate-500 font-medium">Contact</a>
                 </div>
                 
-                <button id="menuBtn" class="md:hidden p-2 rounded-lg hover:bg-slate-100">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <button id="menuBtn" class="md:hidden p-2 rounded-lg hover:bg-slate-100" aria-label="Open mobile menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
                     </svg>
                 </button>
@@ -260,11 +316,11 @@
     <div id="mobileMenu" class="mobile-menu fixed top-0 right-0 w-72 h-full bg-white shadow-2xl z-50 p-6">
         <div class="flex justify-between items-center mb-8">
             <a href="#home" class="text-xl font-bold bg-gradient-to-r from-primary to-cyan bg-clip-text text-transparent" onclick="closeMenu()">GG Mouse Pro 3</a>
-            <button id="closeMenuBtn" class="p-2 rounded-lg hover:bg-slate-100">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-                </svg>
-            </button>
+            <button id="closeMenuBtn" class="p-2 rounded-lg hover:bg-slate-100" aria-label="Close mobile menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
         </div>
         <div class="flex flex-col space-y-4">
             <a href="#about" class="mobile-link text-lg font-medium text-slate-500 py-2">About</a>
@@ -279,6 +335,7 @@
     
     <div id="menuOverlay" class="fixed inset-0 bg-black/50 z-40 hidden"></div>
 
+    <main>
     <section id="home" class="pt-32 pb-20 gradient-bg">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -310,6 +367,50 @@
                             <h3 class="text-2xl font-bold mb-2">Ready to Play</h3>
                             <p class="text-slate-500">Advanced gaming features at your fingertips</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="scroll-animate">
+                    <div class="text-4xl font-bold bg-gradient-to-r from-primary to-cyan bg-clip-text text-transparent">10K+</div>
+                    <div class="text-slate-500 mt-2">Downloads</div>
+                </div>
+                <div class="scroll-animate">
+                    <div class="text-4xl font-bold bg-gradient-to-r from-primary to-cyan bg-clip-text text-transparent">4.9</div>
+                    <div class="text-slate-500 mt-2">⭐⭐⭐⭐⭐ Rating</div>
+                </div>
+                <div class="scroll-animate">
+                    <div class="text-4xl font-bold bg-gradient-to-r from-primary to-cyan bg-clip-text text-transparent">24/7</div>
+                    <div class="text-slate-500 mt-2">Support</div>
+                </div>
+                <div class="scroll-animate">
+                    <div class="text-4xl font-bold bg-gradient-to-r from-primary to-cyan bg-clip-text text-transparent">50+</div>
+                    <div class="text-slate-500 mt-2">Features</div>
+                </div>
+            </div>
+            
+            <div class="mt-16">
+                <h3 class="text-2xl font-bold text-center mb-12">What Our Users Say</h3>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="scroll-animate bg-slate-50 rounded-2xl p-8 card-hover">
+                        <div class="text-yellow-400 text-xl mb-4">⭐⭐⭐⭐⭐</div>
+                        <p class="text-slate-600 mb-4">"Works perfectly with Free Fire! The recoil control is amazing."</p>
+                        <div class="font-semibold text-slate-800">— Rajesh K.</div>
+                    </div>
+                    <div class="scroll-animate bg-slate-50 rounded-2xl p-8 card-hover">
+                        <div class="text-yellow-400 text-xl mb-4">⭐⭐⭐⭐⭐</div>
+                        <p class="text-slate-600 mb-4">"No root needed! Super easy to set up and use. Love it!"</p>
+                        <div class="font-semibold text-slate-800">— Priya S.</div>
+                    </div>
+                    <div class="scroll-animate bg-slate-50 rounded-2xl p-8 card-hover">
+                        <div class="text-yellow-400 text-xl mb-4">⭐⭐⭐⭐⭐</div>
+                        <p class="text-slate-600 mb-4">"The macro feature has completely changed my gameplay!"</p>
+                        <div class="font-semibold text-slate-800">— Arjun M.</div>
                     </div>
                 </div>
             </div>
@@ -440,15 +541,15 @@
             <div class="grid lg:grid-cols-2 gap-8 mb-12">
                 <div class="scroll-animate bg-white border border-slate-100 rounded-2xl overflow-hidden card-hover">
                     <a href="https://www.youtube.com/watch?v=0tX1r2dpvxk" target="_blank" class="thumbnail-container block">
-                        <img src="https://img.youtube.com/vi/0tX1r2dpvxk/maxresdefault.jpg" alt="Basic Tutorial" class="w-full">
+                        <img loading="lazy" width="1280" height="720" src="https://img.youtube.com/vi/0tX1r2dpvxk/maxresdefault.jpg" alt="Basic Tutorial" class="w-full" width="1280" height="720" loading="lazy">
                         <div class="play-button">
-                            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                         </div>
                     </a>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-4">Basic Tutorial</h3>
                         <a href="https://www.youtube.com/watch?v=0tX1r2dpvxk" class="text-primary font-semibold inline-flex items-center" target="_blank">
-                            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
                             </svg>
                             Watch Basic Tutorial
@@ -457,15 +558,15 @@
                 </div>
                 <div class="scroll-animate bg-white border border-slate-100 rounded-2xl overflow-hidden card-hover">
                     <a href="https://www.youtube.com/watch?v=_n8HxNlTbbc" target="_blank" class="thumbnail-container block">
-                        <img src="https://img.youtube.com/vi/_n8HxNlTbbc/maxresdefault.jpg" alt="Keymap Editor Tutorial" class="w-full">
+                        <img loading="lazy" width="1280" height="720" src="https://img.youtube.com/vi/_n8HxNlTbbc/maxresdefault.jpg" alt="Keymap Editor Tutorial" class="w-full" width="1280" height="720" loading="lazy">
                         <div class="play-button">
-                            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                         </div>
                     </a>
                     <div class="p-8">
                         <h3 class="text-2xl font-bold mb-4">Keymap Editor</h3>
                         <a href="https://www.youtube.com/watch?v=_n8HxNlTbbc" class="text-primary font-semibold inline-flex items-center" target="_blank">
-                            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.13C19.603 3.475 12 3.475 12 3.475s-7.603 0-9.376.581a3.016 3.016 0 00-2.122 2.13C0 7.962 0 12 0 12s0 4.038.502 5.814a3.016 3.016 0 002.122 2.13c1.773.581 9.376.581 9.376.581s7.603 0 9.376-.581a3.016 3.016 0 002.122-2.13c.502-1.776.502-5.814.502-5.814s0-4.038-.502-5.814zm-14.002 7.927v-6l5.272 3-5.272 3z"/>
                             </svg>
                             Watch Keymap Editor Tutorial
@@ -475,9 +576,9 @@
             </div>
             <div class="scroll-animate bg-white border border-slate-100 rounded-2xl overflow-hidden mb-8">
                 <a href="https://www.youtube.com/watch?v=Lg9qFe_a3HM" target="_blank" class="thumbnail-container block">
-                    <img src="https://img.youtube.com/vi/Lg9qFe_a3HM/maxresdefault.jpg" alt="Macro Tutorial" class="w-full">
+                    <img loading="lazy" width="1280" height="720" src="https://img.youtube.com/vi/Lg9qFe_a3HM/maxresdefault.jpg" alt="Macro Tutorial" class="w-full" width="1280" height="720" loading="lazy">
                     <div class="play-button">
-                        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
                     </div>
                 </a>
                 <div class="p-8">
@@ -514,7 +615,7 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="scroll-animate bg-white border border-slate-100 rounded-2xl overflow-hidden card-hover">
                     <a href="https://youtu.be/ugH8W9LJJNc?si=hka3G_xW0Wm4sU_w" target="_blank" class="thumbnail-container block">
-                        <img src="https://img.youtube.com/vi/ugH8W9LJJNc/maxresdefault.jpg" alt="Wireless Activation Tutorial" class="w-full">
+                        <img loading="lazy" width="1280" height="720" src="https://img.youtube.com/vi/ugH8W9LJJNc/maxresdefault.jpg" alt="Wireless Activation Tutorial" class="w-full">
                         <div class="play-button">
                             <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                         </div>
@@ -531,7 +632,7 @@
                 </div>
                 <div class="scroll-animate bg-white border border-slate-100 rounded-2xl overflow-hidden card-hover">
                     <a href="https://youtube.com/shorts/XSQAD-q38qs?si=B7wgqI2MyIqh_VAP" target="_blank" class="thumbnail-container block">
-                        <img src="https://img.youtube.com/vi/XSQAD-q38qs/maxresdefault.jpg" alt="Device-by-Device Tutorial" class="w-full">
+                        <img loading="lazy" width="1280" height="720" src="https://img.youtube.com/vi/XSQAD-q38qs/maxresdefault.jpg" alt="Device-by-Device Tutorial" class="w-full">
                         <div class="play-button">
                             <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                         </div>
@@ -548,7 +649,7 @@
                 </div>
                 <div class="scroll-animate bg-white border border-slate-100 rounded-2xl overflow-hidden card-hover">
                     <a href="https://youtube.com/shorts/ZvViIo46X_E" target="_blank" class="thumbnail-container block">
-                        <img src="https://img.youtube.com/vi/ZvViIo46X_E/maxresdefault.jpg" alt="Root Activation Tutorial" class="w-full">
+                        <img loading="lazy" width="1280" height="720" src="https://img.youtube.com/vi/ZvViIo46X_E/maxresdefault.jpg" alt="Root Activation Tutorial" class="w-full">
                         <div class="play-button">
                             <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                         </div>
@@ -565,7 +666,7 @@
                 </div>
                 <div class="scroll-animate bg-white border border-slate-100 rounded-2xl overflow-hidden card-hover">
                     <a href="https://www.youtube.com/shorts/FabyYBNKkEU" target="_blank" class="thumbnail-container block">
-                        <img src="https://img.youtube.com/vi/FabyYBNKkEU/maxresdefault.jpg" alt="Customize Mouse Pointer Tutorial" class="w-full">
+                        <img loading="lazy" width="1280" height="720" src="https://img.youtube.com/vi/FabyYBNKkEU/maxresdefault.jpg" alt="Customize Mouse Pointer Tutorial" class="w-full">
                         <div class="play-button">
                             <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                         </div>
@@ -582,7 +683,7 @@
                 </div>
                 <div class="scroll-animate bg-white border border-slate-100 rounded-2xl overflow-hidden card-hover">
                     <a href="https://www.youtube.com/watch?v=mXTJu7LWX-g" target="_blank" class="thumbnail-container block">
-                        <img src="https://img.youtube.com/vi/mXTJu7LWX-g/maxresdefault.jpg" alt="Long Press Trigger Group Tutorial" class="w-full">
+                        <img loading="lazy" width="1280" height="720" src="https://img.youtube.com/vi/mXTJu7LWX-g/maxresdefault.jpg" alt="Long Press Trigger Group Tutorial" class="w-full">
                         <div class="play-button">
                             <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                         </div>
@@ -599,7 +700,7 @@
                 </div>
                 <div class="scroll-animate bg-white border border-slate-100 rounded-2xl overflow-hidden card-hover">
                     <a href="https://www.youtube.com/watch?v=v2UcXBhl_zI" target="_blank" class="thumbnail-container block">
-                        <img src="https://img.youtube.com/vi/v2UcXBhl_zI/maxresdefault.jpg" alt="Recoil Control Tutorial" class="w-full">
+                        <img loading="lazy" width="1280" height="720" src="https://img.youtube.com/vi/v2UcXBhl_zI/maxresdefault.jpg" alt="Recoil Control Tutorial" class="w-full">
                         <div class="play-button">
                             <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                         </div>
@@ -734,7 +835,7 @@
                     </div>
                     <div class="mb-6">
                         <a href="https://www.youtube.com/watch?v=7pW5u7mvf60" target="_blank" class="thumbnail-container block">
-                            <img src="https://img.youtube.com/vi/7pW5u7mvf60/maxresdefault.jpg" alt="Activation Video Tutorial" class="w-full rounded-xl">
+                            <img loading="lazy" width="1280" height="720" src="https://img.youtube.com/vi/7pW5u7mvf60/maxresdefault.jpg" alt="Activation Video Tutorial" class="w-full rounded-xl">
                             <div class="play-button">
                                 <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                             </div>
@@ -803,9 +904,9 @@
             </div>
             <div id="faqList" class="space-y-4">
                 <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
-                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50" aria-expanded="false">
                         <span class="font-semibold text-lg">What is GG Mouse Pro 3?</span>
-                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                         </svg>
                     </button>
@@ -814,9 +915,9 @@
                     </div>
                 </div>
                 <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
-                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50" aria-expanded="false">
                         <span class="font-semibold text-lg">Is root required?</span>
-                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                         </svg>
                     </button>
@@ -825,9 +926,9 @@
                     </div>
                 </div>
                 <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
-                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50" aria-expanded="false">
                         <span class="font-semibold text-lg">What devices are supported?</span>
-                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                         </svg>
                     </button>
@@ -836,9 +937,9 @@
                     </div>
                 </div>
                 <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
-                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50" aria-expanded="false">
                         <span class="font-semibold text-lg">How do I get support?</span>
-                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                         </svg>
                     </button>
@@ -847,9 +948,9 @@
                     </div>
                 </div>
                 <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
-                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50" aria-expanded="false">
                         <span class="font-semibold text-lg">Can I use multiple activation methods?</span>
-                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                         </svg>
                     </button>
@@ -858,9 +959,9 @@
                     </div>
                 </div>
                 <div class="faq-item bg-white border border-slate-100 rounded-2xl overflow-hidden">
-                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50">
+                    <button class="accordion-btn w-full px-6 py-5 text-left flex justify-between items-center hover:bg-slate-50" aria-expanded="false">
                         <span class="font-semibold text-lg">Is there a free trial?</span>
-                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="accordion-icon w-5 h-5 text-slate-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
                         </svg>
                     </button>
@@ -1021,6 +1122,7 @@
         </div>
     </section>
 
+    </main>
     <footer class="bg-slate-900 text-white py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-4 gap-8 mb-12">
@@ -1062,8 +1164,8 @@
         </div>
     </footer>
 
-    <button id="backToTop" class="fixed bottom-8 right-8 w-12 h-12 hero-gradient rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300 hover:scale-110">
-        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <button id="backToTop" class="fixed bottom-8 right-8 w-12 h-12 hero-gradient rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all duration-300 hover:scale-110" aria-label="Back to top">
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
         </svg>
     </button>
@@ -1125,12 +1227,15 @@
             btn.addEventListener('click', () => {
                 const content = btn.nextElementSibling;
                 const icon = btn.querySelector('.accordion-icon');
+                const isExpanded = btn.getAttribute('aria-expanded') === 'true';
                 
+                btn.setAttribute('aria-expanded', !isExpanded);
                 content.classList.toggle('active');
                 icon.classList.toggle('rotate-180');
                 
                 accordionBtns.forEach(otherBtn => {
                     if (otherBtn !== btn) {
+                        otherBtn.setAttribute('aria-expanded', 'false');
                         otherBtn.nextElementSibling.classList.remove('active');
                         otherBtn.querySelector('.accordion-icon').classList.remove('rotate-180');
                     }

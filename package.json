@@ -1,0 +1,12 @@
+{
+  "name": "gg-mouse-pro-website",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -c js/tailwind.config.js -i css/tailwind.css -o css/site.css --minify",
+    "build:guides": "python scripts/build_guides.py",
+    "check": "python scripts/check_site.py"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}

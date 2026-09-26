@@ -1,158 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://www.ggmousepro.in/</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>1.0</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/download</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/activation</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/latest-version</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/wireless-activation</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/wired-activation</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/device-to-device-activation</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/how-to-install</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/keymapping</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/macro-guide</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/recoil-control</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/sensitivity-guide</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/troubleshooting</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/common-errors</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.7</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/free-fire-settings</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/bgmi-settings</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/pubg-settings</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/cod-mobile-settings</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/supported-devices</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/android-15</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.7</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/faq</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.9</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/blog</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/contact</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.7</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/privacy-policy</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.6</priority>
-</url>
-
-<url>
-  <loc>https://www.ggmousepro.in/terms</loc>
-  <lastmod>2026-07-02</lastmod>
-  <priority>0.6</priority>
-</url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.ggmousepro.in/activation</loc></url>
+  <url><loc>https://www.ggmousepro.in/android-gaming-peripherals</loc></url>
+  <url><loc>https://www.ggmousepro.in/contact</loc></url>
+  <url><loc>https://www.ggmousepro.in/device-by-device-activation</loc></url>
+  <url><loc>https://www.ggmousepro.in/download</loc></url>
+  <url><loc>https://www.ggmousepro.in/faq</loc></url>
+  <url><loc>https://www.ggmousepro.in/Free-Fire/Keymapping</loc></url>
+  <url><loc>https://www.ggmousepro.in/free-fire-settings</loc></url>
+  <url><loc>https://www.ggmousepro.in/guides</loc></url>
+  <url><loc>https://www.ggmousepro.in/</loc></url>
+  <url><loc>https://www.ggmousepro.in/keymapping</loc></url>
+  <url><loc>https://www.ggmousepro.in/latest-version</loc></url>
+  <url><loc>https://www.ggmousepro.in/macro-guide</loc></url>
+  <url><loc>https://www.ggmousepro.in/privacy-policy</loc></url>
+  <url><loc>https://www.ggmousepro.in/pubg-settings</loc></url>
+  <url><loc>https://www.ggmousepro.in/sensitivity-guide</loc></url>
+  <url><loc>https://www.ggmousepro.in/terms</loc></url>
+  <url><loc>https://www.ggmousepro.in/troubleshooting</loc></url>
+  <url><loc>https://www.ggmousepro.in/wired-activation</loc></url>
+  <url><loc>https://www.ggmousepro.in/wireless-activation</loc></url>
 </urlset>
